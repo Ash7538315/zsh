@@ -112,5 +112,5 @@ eval "$(uv generate-shell-completion zsh)"
 
 ## PATH
 export PATH=/usr/bin:/usr/local/bin:/usr/local/sbin:$HOME/bin:$PATH
-export PATH=$HOME/.local/bin/env:$PATH
+export PATH=$HOME/.local/bin:$PATH
 
