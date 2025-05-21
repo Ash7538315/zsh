@@ -107,10 +107,10 @@ alias l='ls -CF'
 bindkey '^I' expand-or-complete
 zstyle ':completion:*' menu select
 
-## uv completion
-eval "$(uv generate-shell-completion zsh)"
-
 ## PATH
 export PATH=/usr/bin:/usr/local/bin:/usr/local/sbin:$HOME/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
+
+## uv completion
+eval "$(uv generate-shell-completion zsh)"
 
